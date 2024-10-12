@@ -1,0 +1,118 @@
+.main {
+    display: flex;
+  }
+  
+  
+  
+  .numdiv {
+    width: 100%;
+  }
+  
+  .zero {
+    width: 60%;
+  }
+  
+  .zeros {
+    width: 90%;
+  }
+  
+  body {
+    background-image: url(./img.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    /* Using Roboto font for a modern look */
+  }
+  
+  .calculator {
+    background-color: #e6e4e4;
+    padding: 20px;
+    border-radius: 10px;
+    /* Smoother corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Adjust width as needed */
+  }
+  
+  .screen {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* For long numbers */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns */
+    gap: 10px;
+  }
+  
+  button {
+
+    background-color: #e9e9e9;
+    color: #333;
+    padding: 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    /* Smooth transition for hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+  }
+  
+  button:hover {
+    background-color: #d9d9d9;
+  }
+  
+  button:active {
+    background-color: #c9c9c9;
+    transform: translateY(2px);
+    /* Slight push down on click */
+  }
+  
+  .operator {
+    background-color: #ff9800;
+    /* Orange for operators */
+    color: white;
+    display: flex;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .operators {
+    background-color: #ff9800;
+    /* Orange for operators */
+    color: white;
+  
+  }
+  
+  .operator:hover {
+    background-color: #f57c00;
+    /* Darker orange on hover */
+  }
+  
+  .operator:active {
+    background-color: #e66700;
+    /* Even darker on active */
+  }
+
+  .operators:hover {
+    background-color: #f57c00;
+    /* Darker orange on hover */
+  }
+  .operators:active {
+    background-color: #e66700;
+    /* Even darker on active */
+  }
+  
